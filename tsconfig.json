@@ -12,7 +12,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": true,    
     "noImplicitThis": true,
     "noUnusedLocals": false,
     "sourceMap": true,
@@ -21,7 +21,12 @@
     "pretty": true,
     "suppressImplicitAnyIndexErrors": true,
     "target": "es2016",
-    "importHelpers": true
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "components/*": ["src/components/*"],
+    }
   },
   "exclude": [
     "node_modules",
