@@ -46,6 +46,9 @@
       "<rootDir>/src/**/__tests__/**/*.(ts|js)?(x)",
       "<rootDir>/src/**/?(*.)(spec|test).(ts|js)?(x)"
     ],
+    "moduleNameMapper": {
+      "components/(.*)$": "<rootDir>/src/components/$1"
+    },
     "moduleFileExtensions": [
       "ts",
       "tsx",
